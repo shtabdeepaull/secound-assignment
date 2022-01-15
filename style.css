@@ -1,1 +1,77 @@
-!
+/* Fonts styles */
+body{
+    font-family: 'Luxurious Roman', cursive;
+}
+
+/* header section styles */
+
+.container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 100px;
+} 
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+    margin-right: 25px;
+}
+
+/* Banner section styles */
+.banner{
+    display: flex;
+    margin: 100px;
+    font-size: 30px;
+
+    
+}
+.top-banner{
+    width: 50%;
+    margin-top: 50px;
+    align-items: center;
+    margin-right: 20px;
+    
+    
+    
+
+}
+.top-banner img {
+    width: 80%;
+    margin-left: 200px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+    
+}
+button{
+    padding: 15px 40px 15px 40px;
+    margin: 10px;
+    border: 0px solid;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: lightcoral;
+}
+
+/* Logo Section Styles */
+
+hr{
+    margin: 10px 200px 10px 200px;
+}
+
+
+nav  {
+   
+   margin-left:250px;
+  
+}
+nav img{
+    padding: 20px;
+    width: 120px;
+}
+
+
+

@@ -73,5 +73,64 @@ nav img{
     width: 120px;
 }
 
+/* Products Section Styles */
+
+.collection{
+    margin: 200px;
+    margin-top: 0;
+}
+.collection>a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 77%;
+    color: hotpink;
+    
+    
+    
+}
+.collection h1{
+
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+    
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+   
+}
+.each-product{
+    width: 80%;
+    padding: 5%;
+    border-radius: 10px;
+    margin: 10px;
+    margin-right: 10px;
+    box-shadow:10px 10px 50px lightgray;
+    
+}
+.product-details {
+    font-size: 20px;
+}
+.product-details p{
+    font-weight: 700;
+    
+}
+.product-rating i{
+    color: goldenrod;
+    font-size: 10px;
+}
+.product-rating p{
+    font-weight: 600;
+    color: grey;
+}
+span{
+    margin-left: 10px;
+    font-weight: 700;
+}
+
 
 
